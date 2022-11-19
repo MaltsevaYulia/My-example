@@ -1,0 +1,80 @@
+.sale {
+    width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 18px;
+
+    @media screen and (min-width: 320px) {
+        width: 320px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        padding: 0 80px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        width: 1280px;
+        padding: 0 40px;
+    }
+}
+
+.sale-list-mob {
+    @include tablet {
+        display: none;
+    }
+}
+
+
+.sale-list-tab {
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
+}
+
+.sale-list-tab {
+    @media screen and (min-width: 1280px) {
+        display: none;
+    }
+}
+
+.sale-list-decktop {
+    @media screen and (max-width: 1279px) {
+        display: none;
+    }
+}
+
+.sale-mob-item {
+    width: 100%;
+}
+
+.sale-img {
+    border-radius: 12px;
+}
+
+.sale-title {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 22px;
+    line-height: 26px;
+    color: $hoverColor;
+}
+
+.sale-old-price {
+    font-size: 14px;
+    line-height: 100%;
+    text-decoration-line: line-through;
+    color: $linkTextColor;
+}
+
+.sale-new-price {
+    font-size: 20px;
+    line-height: 100%;
+    color: $hoverColor;
+}
+
+.sale-price {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
