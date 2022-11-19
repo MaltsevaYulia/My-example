@@ -2,7 +2,7 @@
     width: 100%;
     min-width: 320px;
     margin: 0 auto;
-    padding: 0 18px;
+    padding: 48 18px;
 
     @media screen and (min-width: 320px) {
         width: 320px;
@@ -20,6 +20,10 @@
 }
 
 .sale-list-mob {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
     @include tablet {
         display: none;
     }
@@ -77,4 +81,16 @@
     display: flex;
     gap: 80px;
     align-items: center;
+}
+
+.sale-btn {
+    cursor: pointer;
+    padding: 16px 48px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.19;
+    color: $primaryBgColor;
+    background: $secondaryTextColor;
+    border-radius: 16px;
+    margin-top: 44px;
 }
