@@ -125,16 +125,5 @@
 //     return "The order is accepted, our manager will contact you";
 //   // Change code above this line
 // }
-// ===========================================================
-function getExtremeElements(array) {
-  // Change code below this line
-return array[0]
-
-  // Change code above this line
-}
-
-getExtremeElements([1, 2, 3, 4, 5]);
-getExtremeElements(["Earth", "Mars", "Venus"]);
-getExtremeElements(["apple", "peach", "pear", "banana"]);
-
-console.log(array);
+// ==========================================================
+ 
