@@ -127,3 +127,8 @@ console.log(fn([12,3,5,6,2,15,7],2))
 //   findNarsis(people1);
 //   findNarsis(people2);
 //   findNarsis(people3);
+//+++++++++++++++++++++++++
+
+    
+
+
